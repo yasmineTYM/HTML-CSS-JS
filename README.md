@@ -14,3 +14,6 @@ a curriculum schedule
 ### schedule-2:
 when the mouse is over ,the color will change . and you can click the course to delete it .
 #####* source:
+### selector-demo:
+ID selector, element selector, css selector
+#####* source:
