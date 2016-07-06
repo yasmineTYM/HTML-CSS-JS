@@ -1,0 +1,155 @@
+<html>
+<body>
+
+<b>Basic Information</b><br />
+ <a name="C4">邮件地址:</a><br />
+ <input ID="t1" type="text" name="password"  onfocus="change(this)">
+<button type="button" onclick="validate_email()">confirm</button><br />
+
+<label for="t2">密码：</label><br />
+<input ID="t2" type="password" onfocus="change(this)">
+<button type="button" onclick="validate_psw1()">confirm</button><br />
+确认密码: <br />
+<input  ID="t3" type="password" name="confirm" onfocus="change(this)">
+<button type="button" onclick="validate_psw2()">confirm</button><br />
+手机号:<br />
+<input ID="t4" type="text" name="phone" onfocus="change(this)">
+<button type="button" onclick="validate_phone()">confirm</button><br />
+
+
+<b>Gender</b><br />
+<input type="radio" name="sex" value="male" checked="checked" onfocus="change(this)"> Male
+<br />
+<input type="radio" name="sex" value="female" onfocus="change(this)"> Female
+<br />
+<br /
+
+
+
+
+<b>Indentity Selection</b><br />
+<form>
+<select name="identity">
+<option value="student">Student</option>
+<option value="free-worker">Free-Worker</option>
+<option value="emplyee">Emplyee</option>
+</select>
+</form>
+
+
+
+<form>
+<b>Interests</b><br />
+work out
+<input type="checkbox" name="interests" value="workout" checked="checked" />
+<br />
+Swimming
+<input type="checkbox" name="interests" value="swim" />
+<br />
+Singing
+<input type="checkbox" name="interests" value="singing" />
+<br />
+Drawing
+<input type="checkbox" name="interests" value="drawing" />
+<br />
+</form> 
+
+
+<b>More Info</b><br />
+<a href="http://www.baidu.com/html" target="_blank" onmouseover="style.color='CornflowerBlue'" onmouseout="style.color='DarkSalmon'">Visit baidu</a>
+
+<p>
+<a href="#C4" onmouseover="style.color='CornflowerBlue'" onmouseout="style.color='DarkSalmon'">Return To Top</a>
+</p>
+
+<form name="input"  action="login.html" method="get">
+<input type="submit" value="Submit" />
+</form>
+
+
+<script>
+function change(x)
+{
+x.style.background="AliceBlue";
+}
+
+
+function validate_email()
+
+{var email=document.getElementById("t1").value;
+with (email)
+{
+apos=email.indexOf("@")
+dotpos=email.lastIndexOf(".")
+if (apos<1||dotpos-apos<2) 
+  {alert("invalid email");
+  return false;}
+else {alert("success");
+return true;}
+}
+}
+
+function validate_psw1()
+{
+var psw1=document.getElementById("t2").value;
+var numasc = 0;
+var charasc = 0;
+var otherasc = 0;
+for (var i = 0; i < psw1.length; i++) {  
+                var asciiNumber = psw1.substr(i, 1).charCodeAt();  
+                if (asciiNumber >= 48 && asciiNumber <= 57) {  
+                    numasc += 1;  
+                }  
+                if ((asciiNumber >= 65 && asciiNumber <= 90)||(asciiNumber >= 97 && asciiNumber <= 122)) {  
+                    charasc += 1;  
+                }  
+                if ((asciiNumber >= 33 && asciiNumber <= 47)||(asciiNumber >= 58 && asciiNumber <= 64)||(asciiNumber >= 91 && asciiNumber <= 96)||(asciiNumber >= 123 && asciiNumber <= 126)) {  
+                    otherasc += 1;  
+                }  }
+				
+				
+if(psw1.length==0||psw1.length<8||psw1.length>12)
+{alert("请输入8-12位的密码"); 
+return false;}
+else if(numasc==0 || charasc==0 || otherasc==0)
+{alert("请保证密码包含数字，字母以及特殊符号");
+return false;}
+else{alert("success");
+return true;}}
+
+
+
+function validate_psw2()
+{var psw2=document.getElementById("t3").value;
+var psw1=document.getElementById("t2").value;
+if(psw1==psw2)
+{alert("success");
+return true;}
+else
+{alert("请输入同样的密码");
+return false;}
+}
+
+
+
+function validate_phone()
+{
+var x=document.getElementById("t4").value;
+if(x==""||isNaN(x)||x.length!=11)
+	{
+	alert("Invalid, please input again");
+	return false;
+	}
+else
+  {
+alert("success");
+return true;
+   }
+}
+
+
+
+
+</script>
+</body>
+</html>
