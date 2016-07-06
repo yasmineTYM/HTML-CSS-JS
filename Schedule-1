@@ -1,0 +1,71 @@
+
+<html>
+
+<body>
+
+<h4>Curriculum Schedule：</h4>
+
+<table border="6">
+
+<tr>
+  <th>Time/Week</th>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+  <th colspan="2">weekend<th>
+</tr>
+<tr>
+  <td>8:00-9:30</td>
+  <td>英美文化体验</td>
+  <td>软件测试和验证</td>
+  <td>面向对象分析</td>
+  <td>编译原理</td>
+  <td></td>
+    <td></td>
+	  <td></td>
+</tr>
+<tr>
+  <td>10:00-11:30</td>
+  <td></td>
+  <td>编译原理</td>
+  <td>概率论与数理统计</td>
+  <td>数据库实践</td>
+  <td></td>
+  <td></td>
+	  <td></td>
+</tr>
+<tr>
+  <td>13:00-14:30</td>
+  <td>信息存储与管理</td>
+  <td>面向对象分析和设计实践</td>
+  <td></td>
+  <td></td>
+  <td>中国画写意花卉课程</td>
+  <td></td>
+	  <td></td>
+</tr>
+<tr>
+  <td>15:00-16:30</td>
+  <td>可计算理论</td>
+  <td>&nbsp</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+	  <td></td>
+</tr>
+<tr>
+  <td>18:00-19:30</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>概率论与数理统计</td>
+  <td></td>
+  <td></td>
+	  <td></td>
+</tr>
+</table>
+
+</body>
