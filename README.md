@@ -1,19 +1,19 @@
 # HTML-CSS-JS
 ### SignIn-1
 each input refer to one button which connected with an function, if you want to check whether the input is valid or not, you need to check many times.
-#####* source:
+#####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/SignIn_1
 ### SignIn-2
 you can use the final button called submit to check all the input
-#####* source:
+#####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/SignIn_2
 ### SignIn-3:
 when you input some info, the check will automatically happen without clicking. 
-#####* source:
+#####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/SignIn_3
 ### schedule-1:
 a curriculum schedule 
-#####* source:
+#####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/Schedule-1
 ### schedule-2:
 when the mouse is over ,the color will change . and you can click the course to delete it .
-#####* source:
+#####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/Schedule-2
 ### selector-demo:
 ID selector, element selector, css selector
-#####* source:
+#####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/selector-demo
