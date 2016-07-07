@@ -5,9 +5,12 @@ each input refer to one button which connected with an function, if you want to 
 ### SignIn-2
 you can use the final button called submit to check all the input
 #####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/SignIn_2
-### SignIn-3:
+### SignIn-3(js):
 when you input some info, the check will automatically happen without clicking. 
 #####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/SignIn_3
+### SignIn-4(jquery):
+using jquery
+#####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/SignIn_4
 ### schedule-1:
 a curriculum schedule 
 #####* source:https://github.com/yasmineTYM/HTML-CSS-JS/blob/master/Schedule-1
